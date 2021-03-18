@@ -1,3 +1,8 @@
+# service-exchange-platform-frontend
+# main is the main branch on Github by default. In this project the default branch has been changed to master branch. Do not commit directly to the master.
+# happy coding
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
