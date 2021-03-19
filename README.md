@@ -1,4 +1,4 @@
-# service-exchange-platform-frontend
+# service-ex-platform-frontend
 # "main" is the main branch on Github by default. In this project the default branch has been switched to "master" branch. Do not commit directly to the master.
 # happy coding
 
