@@ -1,7 +1,8 @@
 # service-ex-platform-frontend
-# "main" is the main branch on Github by default. In this project the default branch has been switched to "master" branch. Do not commit directly to the master.
-# happy coding
 
+# "main" is the main branch on Github by default. In this project the default branch has been switched to "master" branch. Do not commit directly to the master.
+
+# happy coding
 
 # Getting Started with Create React App
 
