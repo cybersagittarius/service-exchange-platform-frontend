@@ -1,13 +1,7 @@
-@import "./variables";
 
 .about {
-  margin-top: -36px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  background: var(--clr-grey-light);
-  color: $mainColor;
+  margin-top: 72px;
+  @include flexCenter(row, var(--clr-grey-light)); 
 }
 
 h5 {
@@ -35,10 +29,11 @@ h5 {
 }
 
 .about-card-body {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+  @include flexCenter(column, none)
   margin: 2rem;
 }
 

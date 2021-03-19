@@ -33,7 +33,7 @@ h1::after {
   font-family: $fontFamily;
   font-style: normal;
   color: white;
-  font-size: 25px;
+  font-size: 19px;
   text-align: center;
 }
 
@@ -45,11 +45,12 @@ h1::after {
 }
 
 .btnJoinFind {
+  border-radius: 2px;
   width: 42px;
   height: 22px;
-  font-size: 12px;
+  font-size: 13px;
   color: white;
-  background-color: rgb(183, 60, 7);
+  background-color: $redButton;
   border: none;
   margin-top: -1px;
 }
@@ -57,8 +58,10 @@ h1::after {
   color: white;
 }
 
-.btnJoin:hover {
-  color: #272727;
+.btnJoinFind a:hover {
+  size:13px;
+  color: $lighWhiteOnHover;
+  text-decoration: none;
 }
 
 .arrow{
@@ -85,9 +88,11 @@ h1::after {
 }
 .arrow p {
  transform: translate(-50%,-50%);
+ font-Family: $fontFamily;
+ font-size: 13px;
  margin-top:3rem;
  color: #fff;
- font-family: 'Montserrat',sans-serif;
+ /* font-family: 'Montserrat',sans-serif; */
  text-shadow: 0 5px 15px rgba(0, 0, 0, 0.877);
 }
 @keyframes animate {
