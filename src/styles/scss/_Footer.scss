@@ -3,13 +3,17 @@
 
 .footer {
   width: 100%;
-  height: 70px;
+  height: 46px;
   background-color: $mainColor;
   position: fixed;
   bottom: 0px;
   @include flexCenterOnly();
   list-style: none;
-  z-index: 2;
+  z-index: 9999;
+}
+.footer ul {
+    margin-top: 0; 
+    margin-bottom: 0rem; 
 }
 
 .btnFooter {
@@ -30,6 +34,6 @@
 
 .btnFooter a:hover {
   font-size: 14px;
-  color: rgb(204, 204, 204);
+  color: $lighWhiteOnHover;
   text-decoration: none;
 }

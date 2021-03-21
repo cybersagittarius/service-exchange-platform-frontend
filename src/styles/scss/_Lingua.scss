@@ -28,6 +28,10 @@
     margin-top: 13px;
     margin-left: 55px;
 }
+#btnGroupDrop:hover {
+    color: $lightGrayOnHover;
+    text-decoration: none;
+}
 
 .dropdown-toggle:hover {
     font-size: 13px;
@@ -64,7 +68,7 @@ a:hover {
 }
 
 .log a:hover {
-    color: rgb(110, 110, 110);
+    color: $lightGrayOnHover;
     text-decoration: none;
 }
 

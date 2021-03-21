@@ -24,13 +24,12 @@ class Find extends Component {
       <div className="form">
         <div className="menu">
           <button
-            className="btnCat dropdown-toggle"
+            className="btn btnCat dropdown-toggle"
             type="button"
             id="dropdownMenuButton1"
             data-bs-toggle="dropdown"
             aria-expanded="false"
-          >
-            I can offer
+          >I can offer
           </button>
           <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
             <li>
@@ -147,13 +146,12 @@ class Find extends Component {
         </div>
         <div className="menu">
           <button
-            className="btnCat dropdown-toggle"
+            className="btn btnCat dropdown-toggle"
             type="button"
             id="dropdownMenuButton1"
             data-bs-toggle="dropdown"
             aria-expanded="false"
-          >
-            I'm looking for
+          >I'm looking for
           </button>
           <ul
             className="dropdown-menu cc"
