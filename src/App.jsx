@@ -6,6 +6,7 @@ import Header from "./Components/Header";
 import Main from "./Components/Main";
 import About from "./Components/About";
 import Team from "./Components/Team";
+import ContactUs from "./Components/ContactUs";
 import Footer from "./Components/Footer";
 //npm install react-router-dom
 import Login from "./Components/userAccount/Login";
@@ -22,6 +23,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
         <Main />       
         <About />
         <Team />
+        <ContactUs/>
         <Footer />
       </div>
       <Switch>

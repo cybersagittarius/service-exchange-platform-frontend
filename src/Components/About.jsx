@@ -5,14 +5,18 @@ import { FaRegCompass, FaMedapps } from "react-icons/fa";
 const About = () => {
   return (
     <div id="aboutUs" className="about">     
-      <CardDeck  style={{textAlign:"center"}} className="about-card-deck">       
-        <Card style={{lineHeight:"32px"}} className="about-card">
-          <Card.Body className="about-card-body">
+       <CardDeck  style={{textAlign:"center",marginTop:"3rem"}}> {/*className="about-card-deck"        */}
+        <Card className="Card"> 
+        {/* className="about-card" */}
+          <Card.Body> 
+          {/* className="about-card-body" */}
             <FaRegCompass className="icons" />
-            <Card.Title className="about-card-title">
+            <Card.Title>
+             {/* className="about-card-title" */}
               Mission
             </Card.Title>
-            <Card.Text className="about-card-text">
+            <Card.Text>
+             {/* className="about-card-text" */}
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil,
               sapiente soluta necessitatibus vel officiis natus neque doloribus,
               deleniti ullam optio voluptatibus dolores nostrum aut et
@@ -24,13 +28,17 @@ const About = () => {
           </Card.Body>
         </Card>
 
-        <Card style={{lineHeight:"32px"}} className="about-card">
-          <Card.Body style={{textAlign:"center"}} className="about-card-body">
+        <Card  className="Card">
+        {/* className="about-card" */}
+           <Card.Body style={{textAlign:"center"}}> 
+          {/*className="about-card-body" */}
             <FaMedapps className="icons" />
-            <Card.Title className="about-card-title">
+            <Card.Title>
+             {/* className="about-card-title" */}
               Vision
             </Card.Title>
-            <Card.Text className="about-card-text">
+            <Card.Text>
+             {/* className="about-card-text" */}
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil,
               sapiente soluta necessitatibus vel officiis natus neque doloribus,
               deleniti ullam optio voluptatibus dolores nostrum aut et

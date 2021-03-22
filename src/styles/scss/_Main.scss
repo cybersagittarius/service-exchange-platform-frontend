@@ -1,8 +1,12 @@
 @import "variables.scss";
 @import "mixins.scss";
-
+.home{
+  height: 100vh;
+}
 .main {
-  margin-top: 128px;
+  // margin-top: 128px;
+  margin-top: 250px;
+
   @include flexCenter(column, rgba(255, 255, 255, 0))
 }
 
@@ -13,9 +17,9 @@ h1 {
   font-size: 361% !important;
 }
 
-.home {
-  margin-top: 13px;
-}
+// .home {
+//   margin-top: 13px;
+// }
 
 h1::after {
   content: "";

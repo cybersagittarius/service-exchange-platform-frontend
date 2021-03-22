@@ -1,66 +1,75 @@
 @import "./variables";
 
 .about {
-  margin-top: -36px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  background: var(--clr-grey-light);
-  color: $mainColor;
+  // margin-top: -36px;
+  // width: 90vw;
+  // display: flex;
+  // flex-direction: row;
+  // align-items: center;
+  // justify-content: center;
+  // background: var(--clr-grey-light);
+  // color: $mainColor;
+  max-width: var(--max-width);
+  // box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  margin-left: 13px;
+  margin-right: 13px;
+  // height: 100vh;
 }
+.Card{
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  line-height: 32px;
+}
+// h5 {
+//   font-size: 2.5rem;
+//   margin-top: 1rem;
+//   color: var(--clr-orange-dark);
+// }
 
-h5 {
-  font-size: 2.5rem;
-  margin-top: 1rem;
-  color: var(--clr-orange-dark);
-}
+// .about-card-deck {
+//   flex-direction: row;
+//   width: 100vw;
+// }
 
-.about-card-deck {
-  flex-direction: row;
-  width: 100vw;
-}
+// .about-card {
+//   width: 35%;
+//   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+//   margin-left: 0.2rem;
+//   z-index: -1;
+// }
 
-.about-card {
-  width: 35%;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  margin-left: 0.2rem;
-  z-index: -1;
-}
+// .about-card:hover {
+//   background: var(--clr-orange-light);
+//   cursor: pointer;
+//   color: var(--clr-white);
+// }
 
-.about-card:hover {
-  background: var(--clr-orange-light);
-  cursor: pointer;
-  color: var(--clr-white);
-}
+// .about-card-body {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+//   margin: 2rem;
+// }
 
-.about-card-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 2rem;
-}
+// .about-card-title {
+//   font-family: $fontFamily;
+//   margin-top: 0.8rem;
+// }
 
-.about-card-title {
-  font-family: $fontFamily;
-  margin-top: 0.8rem;
-}
+// .about-card-title span {
+//   font-size: 1.5rem;
+//   font-weight: 900;
+//   margin-right: 0.5rem;
+// }
 
-.about-card-title span {
-  font-size: 1.5rem;
-  font-weight: 900;
-  margin-right: 0.5rem;
-}
+// .about-card-text {
+//   font-family: $fontFamily;
+//   font-size: 12px;
+//   margin-bottom: 1rem;
+//   margin-top: 1rem;
+// }
 
-.about-card-text {
-  font-family: $fontFamily;
-  font-size: 12px;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-}
-
-.icons {
-  margin-top: auto;
-  font-size: 2rem;
-}
+// .icons {
+//   margin-top: auto;
+//   font-size: 2rem;
+// }
